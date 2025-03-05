@@ -66,6 +66,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    algolia: {
+      appId: "WN0Z1IN0L1",
+
+      apiKey: "0f74908dcc3d65a132312c845306e711",
+
+      indexName: "usaurus-demo-nine",
+    },
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "C-Cloud",
