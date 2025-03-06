@@ -12,7 +12,8 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: " User Authentication & Access Control",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_two-factor-authentication_8tds.svg")
+      .default,
     description: (
       <>
         Sign up and login with email/password or third-party authentication
@@ -23,7 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "File Management & Storage",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_folder-files_5www.svg").default,
     description: (
       <>
         Upload, download, and delete files. Organize files in folders and
@@ -34,7 +35,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Collaboration & Sharing",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/undraw_miro_pu4s.svg").default,
     description: (
       <>
         Share files via links with custom access permissions. Real-time
