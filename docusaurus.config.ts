@@ -37,6 +37,19 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "docs",
+          // lastVersion: undefined,
+          includeCurrentVersion: false,
+          versions: {
+            "2.0.0": {
+              label: "2.0.0",
+              path: "2.0.0",
+            },
+            "1.0.0": {
+              label: "1.0.0",
+              path: "1.0.0",
+            },
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -93,6 +106,10 @@ const config: Config = {
         //   label: "GitHub",
         //   position: "right",
         // },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+        },
       ],
     },
     footer: {

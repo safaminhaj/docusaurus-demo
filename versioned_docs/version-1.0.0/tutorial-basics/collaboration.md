@@ -8,7 +8,7 @@ sidebar_position: 3
 
 ![Docusaurus logo](/img/undraw_folder-files_5www.svg)
 
-## Step 5: Sharing Files & Folders TESTTTTTTTTTTTTTT
+## Step 5: Sharing Files & Folders
 
 Collaboration is seamless with C-Cloud. You can share files securely in just a few steps:
 
