@@ -40,20 +40,20 @@ const config: Config = {
           routeBasePath: "docs",
           // lastVersion: undefined,
           includeCurrentVersion: false,
-          versions: {
-            "2.0.0": {
-              label: "2.0.0",
-              path: "2.0.0",
-            },
-            "1.0.0": {
-              label: "1.0.0",
-              path: "1.0.0",
-            },
-          },
+          // versions: {
+          //   "2.0.0": {
+          //     label: "2.0.0",
+          //     path: "2.0.0",
+          //   },
+          //   "1.0.0": {
+          //     label: "1.0.0",
+          //     path: "1.0.0",
+          //   },
+          // },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
