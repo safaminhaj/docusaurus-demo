@@ -38,8 +38,15 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           routeBasePath: "docs",
+          // lastVersion: "current",
+          // versions: {
+          //   current: {
+          //     label: "1.0.0",
+          //     path: "1.0.0",
+          //   },
+          // },
           // lastVersion: undefined,
-          includeCurrentVersion: false,
+          // includeCurrentVersion: false,
           // versions: {
           //   "2.0.0": {
           //     label: "2.0.0",
