@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -14,7 +16,11 @@
   --ifm-color-primary-lighter: #2783e8;
   --ifm-color-primary-lightest: #2f93f2;
   --ifm-code-font-size: 95%;
+  --ifm-font-size-base: 0.8rem; /* Adjust as needed */
+  /* --ifm-heading-font-size: 0.8rem; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "Poppins", sans-serif;
+  --ifm-heading-font-family: "Poppins", sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +33,28 @@
   --ifm-color-primary-lighter: #69b4ff;
   --ifm-color-primary-lightest: #7ec1ff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.theme-doc-version-badge {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.table-of-contents__link {
+  margin-top: 1rem;
+}
+
+.navbar__title {
+  font-size: 1.4rem;
+  font-weight: 600;
 }
