@@ -46,7 +46,7 @@ const config: Config = {
           //   },
           // },
           // lastVersion: undefined,
-          // includeCurrentVersion: false,
+          includeCurrentVersion: false,
           // versions: {
           //   "2.0.0": {
           //     label: "2.0.0",
