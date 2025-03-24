@@ -22,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            C-Cloud Documentation
+            Compliance Cloud Documentation
           </Link>
         </div>
       </div>
