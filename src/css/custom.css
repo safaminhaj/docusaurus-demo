@@ -62,7 +62,7 @@ h3 {
   --ifm-font-size-base: 0.85rem;
   --ifm-font-family-base: "Poppins", sans-serif;
   --ifm-heading-font-family: "Poppins", sans-serif;
-  --doc-sidebar-width: 200px !important;
+  --doc-sidebar-width: 190px !important;
 }
 
 /* Dark Mode Adjustments */
@@ -104,4 +104,8 @@ h3 {
 
 .table-of-contents__link {
   margin-top: 1rem;
+}
+
+.navbar {
+  background-color: #f5f5f5;
 }
