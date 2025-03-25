@@ -38,6 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           routeBasePath: "docs",
+          sidebarCollapsible: true,
           // lastVersion: "current",
           // versions: {
           //   current: {
@@ -47,6 +48,7 @@ const config: Config = {
           // },
           // lastVersion: undefined,
           includeCurrentVersion: false,
+
           // versions: {
           //   "2.0.0": {
           //     label: "2.0.0",
@@ -63,6 +65,7 @@ const config: Config = {
             // "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
             "https://github.com/safaminhaj/docusaurus-demo/edit/main/",
         },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
@@ -87,6 +90,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
+    colorMode: {
+      disableSwitch: true, // Disables the built-in toggle
+    },
     algolia: {
       appId: "WN0Z1IN0L1",
 
@@ -96,7 +102,7 @@ const config: Config = {
     },
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "ComplianceCloud Documentation",
+      title: "Documentation",
       // logo: {
       //   alt: "My Site Logo",
       //   src: "img/logo.svg",
