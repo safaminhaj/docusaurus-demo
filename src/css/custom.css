@@ -59,9 +59,10 @@ h3 {
   --ifm-color-primary-lighter: #80b5ee;
   --ifm-color-primary-lightest: #96c2f5;
   --ifm-code-font-size: 95%;
-  --ifm-font-size-base: 0.9rem;
+  --ifm-font-size-base: 0.85rem;
   --ifm-font-family-base: "Poppins", sans-serif;
   --ifm-heading-font-family: "Poppins", sans-serif;
+  --doc-sidebar-width: 200px !important;
 }
 
 /* Dark Mode Adjustments */
